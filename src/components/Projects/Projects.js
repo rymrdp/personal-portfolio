@@ -21,8 +21,14 @@ const Projects = () => {
                     <img src={resume} alt="resu-me" />
                   </div>
                   <div className={ProjectsCSS.link}>
-                    <GitHub className={ProjectsCSS.icon} />
-                    <span>Resu-Me: Online Resume Builder</span>
+                    <a
+                      href="https://github.com/rymrdp/resu-me"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <GitHub className={ProjectsCSS.icon} />
+                      <span>Resu-Me: Online Resume Builder</span>
+                    </a>
                   </div>
                 </div>
                 <div className={ProjectsCSS.container}>
@@ -30,8 +36,14 @@ const Projects = () => {
                     <img src={listingio} alt="listingio" />
                   </div>
                   <div className={ProjectsCSS.link}>
-                    <GitHub className={ProjectsCSS.icon} />
-                    <span>listing.io: Inventory Management System</span>
+                    <a
+                      href="https://github.com/rymrdp/listing.io"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <GitHub className={ProjectsCSS.icon} />
+                      <span>listing.io: Inventory Management System</span>
+                    </a>
                   </div>
                 </div>
                 <div className={ProjectsCSS.container}>
@@ -39,8 +51,14 @@ const Projects = () => {
                     <img src={borrow} alt="borrow" />
                   </div>
                   <div className={ProjectsCSS.link}>
-                    <GitHub className={ProjectsCSS.icon} />
-                    <span>Borrow: e-Library Management System</span>
+                    <a
+                      href="https://github.com/rymrdp/borrow"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <GitHub className={ProjectsCSS.icon} />
+                      <span>Borrow: e-Library Management System</span>
+                    </a>
                   </div>
                 </div>
                 <div className={ProjectsCSS.container}>{/* Filler-Box */}</div>
