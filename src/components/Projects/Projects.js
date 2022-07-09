@@ -1,0 +1,56 @@
+import React from "react";
+import ProjectsCSS from "./Projects.module.css";
+import listingio from "../assets/listingio.png";
+import resume from "../assets/resume.png";
+import borrow from "../assets/borrow.png";
+import { GitHub } from "@material-ui/icons";
+
+const Projects = () => {
+  return (
+    <section id="projects">
+      <div className={ProjectsCSS.projects}>
+        <div>
+          <div className={ProjectsCSS.projects__container}>
+            <div className={ProjectsCSS.projects__content}>
+              <div className={ProjectsCSS.text}>
+                <h1>Recent Projects</h1>
+              </div>
+              <div className={ProjectsCSS.projects_containerbox}>
+                <div className={ProjectsCSS.container}>
+                  <div className={ProjectsCSS.imgbox}>
+                    <img src={resume} alt="resu-me" />
+                  </div>
+                  <div className={ProjectsCSS.link}>
+                    <GitHub className={ProjectsCSS.icon} />
+                    <span>Resu-Me: Online Resume Builder</span>
+                  </div>
+                </div>
+                <div className={ProjectsCSS.container}>
+                  <div className={ProjectsCSS.imgbox}>
+                    <img src={listingio} alt="listingio" />
+                  </div>
+                  <div className={ProjectsCSS.link}>
+                    <GitHub className={ProjectsCSS.icon} />
+                    <span>listing.io: Inventory Management System</span>
+                  </div>
+                </div>
+                <div className={ProjectsCSS.container}>
+                  <div className={ProjectsCSS.imgbox}>
+                    <img src={borrow} alt="borrow" />
+                  </div>
+                  <div className={ProjectsCSS.link}>
+                    <GitHub className={ProjectsCSS.icon} />
+                    <span>Borrow: e-Library Management System</span>
+                  </div>
+                </div>
+                <div className={ProjectsCSS.container}>{/* Filler-Box */}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

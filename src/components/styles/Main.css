@@ -1,0 +1,150 @@
+.main {
+  min-height: 100%;
+  max-width: 100%;
+  background-color: #f1f3ff;
+  position: relative;
+}
+
+.main__container {
+  display: flex;
+  height: 90vh;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.main__content {
+  margin-left: 3.445rem;
+}
+
+.text {
+  line-height: 55px;
+}
+
+.text p {
+  color: rgb(157, 155, 155);
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.text h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.text .reymar {
+  color: rgba(1, 60, 210, 1);
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons .icon {
+  margin-top: 1rem;
+  margin-right: 1.4rem;
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(157, 155, 155);
+}
+
+.icons .icon:hover {
+  color: rgb(65, 122, 255);
+}
+
+.buttons button {
+  padding: 15px 40px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+
+  border-radius: border-rounded;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    #4371fd 0%,
+    #8ad2ff 50%,
+    #003384 100%
+  );
+  transition: 0.5s;
+}
+
+.buttons button:hover {
+  background-position: right center;
+}
+
+.main__image {
+  clip-path: circle(45% at 50% 49%);
+  cursor: pointer;
+}
+
+.main__image img {
+  background: linear-gradient(25deg, rgba(1, 60, 210, 1), rgb(108, 194, 248));
+  transition: all 1s;
+}
+
+.main__image img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .text {
+    line-height: 30px;
+    white-space: nowrap;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  .text h1 {
+    font-size: 30px;
+  }
+
+  .buttons button {
+    padding: 8px 20px;
+    font-weight: normal;
+  }
+
+  .icons .icon {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main__content {
+    margin-left: 0;
+  }
+
+  .main__container {
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .main__image img {
+    width: 200px;
+  }
+
+  .text h1 {
+    font-size: 23px;
+  }
+  .text p {
+    font-size: 11px;
+  }
+  .icons .icon {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}

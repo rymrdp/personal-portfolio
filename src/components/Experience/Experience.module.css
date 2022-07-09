@@ -1,0 +1,271 @@
+.experience__container {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #dee0ef;
+}
+
+.experience__content {
+  margin-left: 3.45rem;
+  margin-top: 4rem;
+  margin-right: 3.45rem;
+}
+
+.text h1 {
+  font-size: 90px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.text p {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 2rem;
+}
+
+.workinfo {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.workinfo .leftpane {
+  width: 40%;
+  padding-right: 3rem;
+}
+
+.workinfo .righpane {
+  width: 60%;
+}
+
+.leftpane h3 {
+  margin: 2rem 0;
+  color: rgb(53, 144, 255);
+  font-size: 150%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.rightpane h3 {
+  margin: 2rem 0;
+  color: rgb(53, 144, 255);
+  font-size: 150%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.leftpane .certs {
+  margin: 30px auto;
+  padding: 15px;
+  height: 100px;
+  width: 300px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(175, 174, 174, 0.8);
+  align-items: center;
+}
+
+.leftpane .certs h4 {
+  font-size: 90%;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+.leftpane .certs h5 {
+  font-size: 90%;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  color: rgb(132, 132, 132);
+}
+
+.leftpane .certs a {
+  font-size: 90%;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.leftpane .certs a:hover {
+  color: rgb(4, 130, 255);
+}
+
+.leftpane .certs:hover {
+  border-color: rgb(4, 130, 255);
+}
+
+.rightpane .work {
+  margin: 30px auto;
+  padding: 20px;
+  min-height: 175px;
+  max-width: 750px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(175, 174, 174, 0.3);
+  align-items: center;
+  background-color: rgb(236, 244, 255);
+  box-shadow: 10px 10px 5px rgb(172, 185, 189);
+}
+
+.rightpane .work:hover {
+  border-color: rgba(96, 94, 94, 0.3);
+}
+
+.rightpane .work h4 {
+  font-size: 110%;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.rightpane .work h5 {
+  font-size: 90%;
+  margin-bottom: 5px;
+  color: rgb(132, 132, 132);
+  text-transform: uppercase;
+}
+
+.rightpane .work h6 {
+  font-size: 90%;
+  margin-bottom: 5px;
+  color: rgb(76, 76, 76);
+}
+
+.rightpane .work p {
+  font-size: 90%;
+  margin-bottom: 5px;
+  color: rgb(63, 63, 63);
+}
+
+.rightpane .work a {
+  font-size: 90%;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.rightpane .work a:hover {
+  color: rgb(4, 130, 255);
+}
+
+/* Responsive Layout*/
+
+@media (max-width: 875px) {
+  .experience__content {
+    margin-top: 5rem;
+  }
+
+  .experience__container {
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .text h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .text p {
+    font-size: 100%;
+    text-align: left;
+  }
+
+  .leftpane .certs {
+    height: 90px;
+    width: 180px;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .leftpane .certs h4 {
+    font-size: 60%;
+  }
+
+  .leftpane .certs h5 {
+    font-size: 70%;
+  }
+
+  .leftpane .certs a {
+    font-size: 70%;
+  }
+
+  .rightpane .work {
+    margin: 30px auto;
+    padding: 20px;
+    min-height: 120px;
+    max-width: 450px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience__content {
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .text h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .text p {
+    font-size: 90%;
+    text-align: left;
+  }
+
+  .workinfo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .workinfo .leftpane {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .workinfo .rightpane {
+    width: 100%;
+  }
+
+  .leftpane .certs {
+    height: 90px;
+    width: 180px;
+    padding: 15px;
+  }
+
+  .leftpane .certs h4 {
+    font-size: 60%;
+  }
+
+  .leftpane .certs h5 {
+    font-size: 70%;
+  }
+
+  .leftpane .certs a {
+    font-size: 70%;
+  }
+
+  .rightpane .work {
+    margin: 30px auto;
+    padding: 20px;
+    min-height: 120px;
+    max-width: 450px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.461f6f99.css",
+    "main.js": "/personal-portfolio/static/js/main.00535dc6.js",
+    "static/media/listingio.png": "/personal-portfolio/static/media/listingio.4bcb7d2045dfebb10b13.png",
+    "static/media/resume.png": "/personal-portfolio/static/media/resume.bb43e7b4b5eaecd1d0b2.png",
+    "static/media/borrow.png": "/personal-portfolio/static/media/borrow.f104344eca5fa33db8e9.png",
+    "static/media/reymar-portfolio-photo.png": "/personal-portfolio/static/media/reymar-portfolio-photo.c92f0d63cd01e4b43700.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.461f6f99.css.map": "/personal-portfolio/static/css/main.461f6f99.css.map",
+    "main.00535dc6.js.map": "/personal-portfolio/static/js/main.00535dc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.461f6f99.css",
+    "static/js/main.00535dc6.js"
+  ]
+}
