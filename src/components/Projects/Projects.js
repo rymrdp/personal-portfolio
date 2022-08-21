@@ -3,6 +3,7 @@ import ProjectsCSS from "./Projects.module.css";
 import listingio from "../assets/listingio.png";
 import resume from "../assets/resume.png";
 import borrow from "../assets/borrow.png";
+import todolist from "../assets/todolist.png";
 import { GitHub } from "@material-ui/icons";
 
 const Projects = () => {
@@ -61,7 +62,21 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-                <div className={ProjectsCSS.container}>{/* Filler-Box */}</div>
+                <div className={ProjectsCSS.container}>
+                  <div className={ProjectsCSS.imgbox}>
+                    <img src={todolist} alt="todolist" />
+                  </div>
+                  <div className={ProjectsCSS.link}>
+                    <a
+                      href="https://github.com/rymrdp/todo-app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <GitHub className={ProjectsCSS.icon} />
+                      <span>ToDo List: Java Spring Boot and ReactJS</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
