@@ -79,14 +79,14 @@ const Experience = () => {
               <h3>Work Experience</h3>
               <div className={ExperienceCSS.workcontainer}>
                 <div className={ExperienceCSS.work}>
-                  <h4>Associate Software Engineer</h4>
+                  <h4>Software Engineer</h4>
                   <h5>
                     Finastra | <b>2021 - Present</b>
                   </h5>
                   <h6>
                     Performs delivery of fixes to issues regarding bank-related
                     functions. Works on Web and Core Development, SAPI and
-                    online API related issues.
+                    online API (including REST) related issues.
                   </h6>
                   <p>
                     Finastra is one of the largest fintech companies in the
